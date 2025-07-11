@@ -92,9 +92,3 @@ npm run test
 ```
 
 If all tests pass, your setup is complete! 
-
-## Run The Application
-
-```bash
-npm run dev
-```
