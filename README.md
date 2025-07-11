@@ -50,7 +50,7 @@ This system uses **5 specialized AI agents** powered by **Groq's free LLM API** 
 
 4. **Configure environment:**
    ```bash
-   cp .env.example .env
+   cp .env.sample .env
    # Edit .env with your API keys
    ```
 
