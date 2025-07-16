@@ -68,9 +68,16 @@ This system uses **5 specialized AI agents** powered by **Groq's free LLM API** 
 
 ### Via API
 ```bash
-curl -X POST http://localhost:4114/api/workflows/city-info-workflow \
+# Execute city information workflow
+curl -X POST http://localhost:4111/api/workflows/cityInfoWorkflow/start-async \
   -H "Content-Type: application/json" \
-  -d '{"city": "Tokyo", "country": "Japan"}'
+  -d '{"inputData": {"city": "Tokyo", "country": "Japan"}}'
+
+# List available workflows
+curl http://localhost:4111/api/workflows | jq
+
+# List available agents
+curl http://localhost:4111/api/agents | jq
 ```
 
 ### Via Playground
