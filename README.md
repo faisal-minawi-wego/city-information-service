@@ -81,7 +81,7 @@ curl http://localhost:4111/api/agents | jq
 ```
 
 ### Via Playground
-Open http://localhost:4114 in your browser for the interactive interface.
+Open http://localhost:4111 in your browser for the interactive interface.
 
 ## 📊 Sample Output
 
